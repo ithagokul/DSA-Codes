@@ -1,0 +1,131 @@
+#Searching and manipulations in array -------
+'''1.Checking if an element is present in the array
+arr= 2,5,78,10,15,16
+16'''
+'''arr=[]
+n=int(input("Enter the size of array: "))
+print("Enter elements: ")
+for i in range(n):
+    arr.append(int(input()))
+target= int(input("Enter the element you want to find: "))
+if target in arr:
+    print(target, "Found")
+else:
+    print("Not Found")'''
+
+
+'''arr=[]
+n=int(input("Enter the size of array: "))
+print("Enter elements: ")
+for i in range(n):
+    arr.append(int(input()))
+target= int(input("Enter the element you want to find: "))
+if target in arr:
+    print(target, "Found at index: ", arr.index(target))
+else:
+    print("Not Found")'''
+
+#----------------------- haaaaaa -----------------------------
+'''arr=[]
+n=int(input("Enter the size of array: "))
+print("Enter elements: ")
+for i in range(n):
+    arr.append(int(input()))
+target=int(input("Enter the element you want to find: "))
+found=False
+for i in range (n):
+    if arr[i]==target:
+        print(target, "Found at index: ",i)
+        found=True
+        break
+if found==False:
+    print(target, "not found")'''
+
+#enter the elements and find position and also rows and cols u find.........
+'''r=int(input("Enter rows: "))
+c=int(input("Enter col: "))
+arr=[]
+print("Enter elements: ")
+for i in range(r):
+    row=[]
+    for j in range(c):
+        row.append(int(input()))
+    arr.append(row)
+target=int(input("Enter the elements u want to search: "))
+found=False
+for i in range(r):
+    for j in range(c):
+        if arr[i][j]==target:
+            print("Target coordinates are ", i,j)
+            found = True
+            
+if found==False:
+    print("Elements are found:")'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+#time complecity and space
+#1.constant time 0(1)...............
+'''num=int(input("enter a number: "))
+print("square of the number ", num*num)'''
+
+#2.linear time 0(n)...........
+'''n=int(input("enter a number: "))
+for i in range(1, n+1):
+    print(i)'''
+
+#3.qudratic time 0(n^2).........
+'''n=int(input("enter a number: "))
+for i in range(1, n+1):
+    for j in range(1, n+1):
+        print(i, end=' ')
+    print()'''
+
+#logarithmic time 0(log n)....................
+'''n=int(input("enter a number: "))
+while n>1:
+    print(n)
+    n//=2'''
+
+#independt time 0(2n)...........
+'''n=int(input("enter a number: "))
+for i in range(n):
+    print(i, end=' ')
+for j in range(n):
+    print(j, end=' ')'''
+    
+#best time...........0(n//2).............5,64,5(answers)
+'''n=int(input("enter a number: "))
+for i in range (n//2):
+    print(i, end=' ')'''
+
+#constant + linear time 0(n+2).............3
+'''n=int(input("enter a number: "))
+for i in range (n):
+    print(i, end=' ')
+print("hi")
+print("students")'''
+
+#exponential time 0(2^n)..........3
+'''def abc(n):
+    if n==0:
+        return
+    print(n)
+    abc(n-1)
+    abc(n-1)
+n=int(input("enter a number: "))
+abc(n)'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+'''Approches:
+1.math
+2.naive
+3.brute force
+4.greedy
+5.backtracking...31-07-26---day5'''
+
+#math approach..........
+'''num=int(input("Enter a value:"))
+if num%2==1:
+    print(num, "is odd")
+else:
+    print(num, "is even")'''
+
+#naive approach...........
+'''arr=list(map(int, input("enter elements:").split()))..8,1,4,3,2,12,1,0,16
+largest= arr[0]
+for i in range(len(arr)):
+    if arr[i]>largest:
+        largest= arr[i]
+print("Largest:",largest)'''
+
+#brute force............
+'''arr=list(map(int, input("enter elements:").split()))...2,4,6,8,10,15
+target= int(input("Enter target:"))....16
+found = False
+for i in range(len(arr)):
+    for j in range(i+1, len(arr)):
+        if arr[i]+arr[j]==target:
+            print("Pair Found at :",i,j)
+            print("Pair Found at: ",arr[j],arr[j])
+            found= True
+            break
+    if found:
+        break
+if not found:
+    print("No pair found")'''
+
+#greedy approach...........
+'''coins=list(map(int, input("enter elements:").split()))...20 10 5 2 1 
+amount=int(input("Enter target:"))...28
+print("coins used: ")
+for coin in coins:
+    while amount>=coin:
+        print(coin, end=' ')
+        amount -=coin'''
+
+#back tracking..........
+'''def genrate(s, n):
+    if len(s)==n:
+        print(s)
+        return
+    genrate(s+'0', n)
+    genrate(s+'1', n)
+n=int(input("Enter length: "))
+genrate("", n)............3'''
+
+
+

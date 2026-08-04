@@ -1,0 +1,121 @@
+#reverse an array..............
+'''n=int(input("Enter number of elements:"))
+arr=[]
+for i in range(n):
+    val=int(input("Enter a value:"))
+    arr.append(val)
+print("Original array:")
+for i in arr:
+    print(i,end=" ")
+print()
+print("Reversed array:")
+i=n-1
+while i>=0:
+    print(arr[i], end=' ')
+    i-=1'''
+
+###------Rotate an element ------------
+#code to rotate an array to left.........
+'''n=int(input("Enter number of elements: "))
+arr=[]
+for i in range(n):
+    val=int(input("Enter a value: "))
+    arr.append(val)
+print("Original array: ")
+for i in arr:
+    print(i, end=" ")
+print()
+print("Rotated to left array; ")
+first= arr[0]
+for i in range(0, n-1):
+    arr[i]-arr[i+1]
+arr[n-1]= first
+for i in range(n):
+    print(arr[i], end=' ')'''
+
+'''n=int(input("Enter number of elements: "))
+arr=[]
+for i in range(n):
+    val=int(input("Enter a value: "))
+    arr.append(val)
+print("Original array: ")
+for i in arr:
+    print(i, end=" ")
+print()
+print("Rotated to left array; ")
+last= arr[n-1]
+for i in range(0, n-1):
+    arr[i]-arr[i+1]
+arr[0]= last
+for i in range(n):
+    print(arr[i], end=' ')'''
+
+
+#code to insert an element in an array w.r.t pos values........
+'''n = int(input("Enter number of elements: "))
+arr = []
+
+for i in range(n):
+    val = int(input("Enter a value: "))
+    arr.append(val)
+
+print("Original array:")
+for i in arr:
+    print(i, end=" ")
+
+print()
+
+pos=int(input("enter the position:"))
+value=int(input("Enter the value of position:"))
+arr.insert(pos,value)
+print("Latest array after inserting an element:")
+for i in arr:
+    print(i,end=" ")
+    
+print()
+pos =int(input("Enter the position to delete:"))
+arr.pop(pos)
+print("Latest array after deleting an element:")
+for i in arr:
+    print(i,end=" ")
+    
+print()
+pos=int(input("Enter the position to modify:"))
+value=int(input("Enter the value of position:"))
+arr[pos]=value
+print("Latest array after modify an element:")
+for i in arr:
+    print(i,end=" ")'''
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

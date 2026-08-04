@@ -1,0 +1,89 @@
+#array data structure 1-D
+'''array data struvture is linear DS [] one data type
+1.read and write arry
+2.find the sum of array
+3.find the average
+4.find the largest/smallest element in an arry
+5.coun the even and odd numbers/ prime
+6.count pos/neg
+7.reverse an array
+8.left rotate
+9.right totate
+10.array using strings'''
+
+''' code to read n values and traversses those values and print them '''
+
+'''n=int(input("Enter a value: "))
+arr=[]
+for  i in range(n):
+    num=int(input("Enter a value: "))
+    arr.append(num)
+#arr=list(map(int,input("Enter element: ").split()))
+print("array alements: ")
+for i in range(n):
+    print(arr[i],end=' ')
+print(*arr)'''
+
+
+'''n=int(input("Enter a value: "))
+arr=[]
+for  i in range(n):
+    num=int(input("Enter a value: "))
+    arr.append(num)
+maximum= arr[0]
+for i in range(n):
+    if arr[i]> maximum:
+        maximum= arr[i]
+print(maximum)'''
+
+n=int(input("Enter a value: "))
+arr=[]
+for  i in range(n):
+    num=int(input("Enter a value: "))
+    arr.append(num)
+minimum= arr[0]
+for i in range(n):
+    if arr[i]< minimum:
+        minimum= arr[i]
+print(minimum)
+
+
+'''code to read n values and traverse those values and print those
+values and print the counts of even numbers and count of even numbers and count'''
+'''arr=[12,3,5,7,9,2]
+evencount=2
+oddcount=4'''
+'''n- int(input("enter size of array: "))
+arr=[]
+evencount,oddcount=0,0
+for i in range(n):
+    num=int(input("enter a value: "))
+    arr.append(num)
+    
+for i in range (n):
+    if arr[i]%2==0:
+        evencount+=1
+    else:
+        oddcount+=1
+        
+print("Evencount", evencount)
+print("Oddcount", oddcount)'''
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
