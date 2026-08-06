@@ -6,22 +6,22 @@
 5.backtracking...31-07-26---day5'''
 
 #math approach..........
-'''num=int(input("Enter a value:"))
+num=int(input("Enter a value:"))
 if num%2==1:
     print(num, "is odd")
 else:
-    print(num, "is even")'''
+    print(num, "is even")
 
 #naive approach...........
-'''arr=list(map(int, input("enter elements:").split()))..8,1,4,3,2,12,1,0,16
+arr=list(map(int, input("enter elements:").split()))..8,1,4,3,2,12,1,0,16
 largest= arr[0]
 for i in range(len(arr)):
     if arr[i]>largest:
         largest= arr[i]
-print("Largest:",largest)'''
+print("Largest:",largest)
 
 #brute force............
-'''arr=list(map(int, input("enter elements:").split()))...2,4,6,8,10,15
+arr=list(map(int, input("enter elements:").split()))...2,4,6,8,10,15
 target= int(input("Enter target:"))....16
 found = False
 for i in range(len(arr)):
@@ -34,26 +34,26 @@ for i in range(len(arr)):
     if found:
         break
 if not found:
-    print("No pair found")'''
+    print("No pair found")
 
 #greedy approach...........
-'''coins=list(map(int, input("enter elements:").split()))...20 10 5 2 1 
+coins=list(map(int, input("enter elements:").split()))...20 10 5 2 1 
 amount=int(input("Enter target:"))...28
 print("coins used: ")
 for coin in coins:
     while amount>=coin:
         print(coin, end=' ')
-        amount -=coin'''
+        amount -=coin
 
 #back tracking..........
-'''def genrate(s, n):
+def genrate(s, n):
     if len(s)==n:
         print(s)
         return
     genrate(s+'0', n)
     genrate(s+'1', n)
 n=int(input("Enter length: "))
-genrate("", n)............3'''
+genrate("", n)............3
 
 
 
