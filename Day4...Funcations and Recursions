@@ -5,34 +5,34 @@
 4.no arg no return'''
 
 #arg pass return value.................
-'''def summate(a,b):
+def summate(a,b):
     return(a+b)
 num1=int(input("enter a first value: "))#2
 num2=int(input("enter a first value: "))#4
 result= summate(num1,num2)
-print("Sum:",result)'''
+print("Sum:",result)
 
 #arg pass no return value.........
-'''def summate(n1,n2):
+def summate(n1,n2):
     print("sum:",n1+n2)
 n1=int(input("Enter n1:" ))#2
 n2=int(input("Enter n2:" ))#4
-summate(n1,n2)'''
+summate(n1,n2)
 
 #no arg return value........
-'''def summate():
+def summate():
     n1=int(input("Enter n1:" ))#2..these are local variables we taking
     n2=int(input("Enter n1:" ))#4
     return n1+n2
 result=summate()
-print("Sum:",result)'''
+print("Sum:",result)
 
 #no arg no return value.......
-'''def summate():
+def summate():
     n1=int(input("Enter n1:" ))
     n2=int(input("Enter n1:" ))
     print("Sum:", n1+n2)
-summate()'''
+summate()
 
 #RECURSIONS (base, recursion)..............
 '''1.Direct
@@ -44,17 +44,17 @@ summate()'''
 
 #Direct Recurision........
 #code to print n natural numbers using direct recursion
-'''def numbers(n):
+def numbers(n):
     if n==0:
         return
     print(n, end=' ')
     numbers(n-1)
 n= int(input("Enter a number:" ))
-numbers(n)'''
+numbers(n)
 
 #Indirect Recursion.....
 #code to check the given number is even or odd using in-direct recursion.......
-'''def even(n):
+def even(n):
     if n==0:
         print("Even")
         return
@@ -65,15 +65,15 @@ def odd(n):
         return
     even(n-1)
 n=int(input("Enter a number:",))
-even(n)'''
+even(n)
 
 #Tree recursion - Fibonacci number..............
-'''def fib(n):
+def fib(n):
     if n<=1:
         return n
     return fib(n-1)+fib(n-2)
 n=int(input("Enter a number:"))
-print("fibonacci", fib(n))'''
+print("fibonacci", fib(n))
 
 
 
