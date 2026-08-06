@@ -13,7 +13,7 @@
 
 ''' code to read n values and traversses those values and print them '''
 
-'''n=int(input("Enter a value: "))
+n=int(input("Enter a value: "))
 arr=[]
 for  i in range(n):
     num=int(input("Enter a value: "))
@@ -22,10 +22,10 @@ for  i in range(n):
 print("array alements: ")
 for i in range(n):
     print(arr[i],end=' ')
-print(*arr)'''
+print(*arr)
 
 
-'''n=int(input("Enter a value: "))
+n=int(input("Enter a value: "))
 arr=[]
 for  i in range(n):
     num=int(input("Enter a value: "))
@@ -34,7 +34,7 @@ maximum= arr[0]
 for i in range(n):
     if arr[i]> maximum:
         maximum= arr[i]
-print(maximum)'''
+print(maximum)
 
 n=int(input("Enter a value: "))
 arr=[]
@@ -53,7 +53,7 @@ values and print the counts of even numbers and count of even numbers and count'
 '''arr=[12,3,5,7,9,2]
 evencount=2
 oddcount=4'''
-'''n- int(input("enter size of array: "))
+n- int(input("enter size of array: "))
 arr=[]
 evencount,oddcount=0,0
 for i in range(n):
@@ -67,7 +67,7 @@ for i in range (n):
         oddcount+=1
         
 print("Evencount", evencount)
-print("Oddcount", oddcount)'''
+print("Oddcount", oddcount)
     
     
 
