@@ -1,0 +1,50 @@
+write a code to print the sum of digits of a given number........1
+n= int(input("Enter a number : " ))
+sum= 0
+while n!=0:
+    d=n%10
+    sum+=d
+    n//=10
+print("sum of digits ", sum)
+
+write a code to print reverse of a given number.......2
+n= int(input("Enter a number : " ))
+rev= 0
+while n>0:
+    d= n%10
+    rev=rev*10+d
+    n//=10
+print("reverse numer ", rev)
+
+
+write a code to print the count of even digits and odd digits  of a given number.......3
+num= int (input("enter the number: "))
+even= 0
+odd= 0
+while num!=0:
+    d= num%10
+    if d%2==0:
+        even+=1
+    else:
+        odd+=1
+    num//=10
+print("Even Count", even)
+print("Odd Count", odd)
+
+write a code to check whether the given 2 strings are sorted are not.....4
+anagram......
+s1=input("Enter 1st string: ").replace(' ','').lower()
+s2=input("Enter 2nd string: ").replace(' ','').lower()
+if len(s1) != len(s2):
+    print("Not anagram ")
+elif sorted(s1)==sorted(s2):
+    print("Anagram")
+else:
+    print("not anagram.....")
+
+
+
+
+
+
+
