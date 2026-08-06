@@ -2,7 +2,7 @@
 '''1.Checking if an element is present in the array
 arr= 2,5,78,10,15,16
 16'''
-'''arr=[]
+arr=[]
 n=int(input("Enter the size of array: "))
 print("Enter elements: ")
 for i in range(n):
@@ -11,10 +11,10 @@ target= int(input("Enter the element you want to find: "))
 if target in arr:
     print(target, "Found")
 else:
-    print("Not Found")'''
+    print("Not Found")
 
 
-'''arr=[]
+arr=[]
 n=int(input("Enter the size of array: "))
 print("Enter elements: ")
 for i in range(n):
@@ -23,10 +23,10 @@ target= int(input("Enter the element you want to find: "))
 if target in arr:
     print(target, "Found at index: ", arr.index(target))
 else:
-    print("Not Found")'''
+    print("Not Found")
 
 #----------------------- haaaaaa -----------------------------
-'''arr=[]
+arr=[]
 n=int(input("Enter the size of array: "))
 print("Enter elements: ")
 for i in range(n):
@@ -39,10 +39,10 @@ for i in range (n):
         found=True
         break
 if found==False:
-    print(target, "not found")'''
+    print(target, "not found")
 
 #enter the elements and find position and also rows and cols u find.........
-'''r=int(input("Enter rows: "))
+r=int(input("Enter rows: "))
 c=int(input("Enter col: "))
 arr=[]
 print("Enter elements: ")
@@ -60,7 +60,7 @@ for i in range(r):
             found = True
             
 if found==False:
-    print("Elements are found:")'''
+    print("Elements are found:")
 
 
 
