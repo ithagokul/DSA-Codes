@@ -1,0 +1,136 @@
+#Searching Tags
+'''1.linear search
+2.binary serach
+3.jump search'''
+
+#linear search
+'''arr=list(map(int, input("Enter elements: ").split()))
+target=int(input("Enter a target: "))
+for i in range(len(arr)):
+    if arr[i] == target:
+        print(target, "found at index: ",i)
+        break'''
+
+#binary search ------------------
+'''arr = list(map(int, input("Enter elements: ").split()))
+target = int(input("Enter a target: "))
+left=0
+right=len(arr)-1
+found = False
+while left<=right:
+    mid=(left + right) // 2
+    if arr[mid]==target:
+        print(target, "Found at index:", mid)
+        found = True
+        break
+    elif target<arr[mid]:
+        right= mid - 1  
+    else:
+        left = mid + 1  
+if not found:
+    print("Element doesnt exit")'''
+
+#jump search ------------------
+'''import math
+arr=list(map(int, input("Enter elements: ").split()))
+key=int(input("Enter a target: "))
+n= len(arr)
+step= int(math.sqrt(n))
+prev= 0
+found= False
+while prev<n and arr[min(step, n)-1]<key:
+    prev= step
+    step+=int(math.sqrt(n))
+    if prev>= n:
+        break
+while prev<min(step, n):
+    if arr[prev]==key:
+        print("Element found at ", prev)
+        break
+    prev+=1
+if not found:
+    print("Element not found")'''
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
