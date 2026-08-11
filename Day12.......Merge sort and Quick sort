@@ -1,6 +1,6 @@
 #Divide and Conquer
 
-'''1.Merge Sort
+1.Merge Sort
 
 def merge_sort(arr):
     if len(arr) <= 1:
@@ -30,12 +30,12 @@ arr = list(map(int, input("Enter elements: ").split()))
 print("Original array:", arr)
 
 sorted_array = merge_sort(arr)
-print("Sorted array:", sorted_array)'''
+print("Sorted array:", sorted_array)
 
 
 #quick Sort--------------------------------------
 
-'''def partition(arr, low, high):
+def partition(arr, low, high):
     pivot = arr[high]
     i = low - 1
 
@@ -62,7 +62,7 @@ print("Original array:", arr)
 
 quick_sort(arr, 0, len(arr) - 1)
 
-print("Sorted array:", arr)'''
+print("Sorted array:", arr)
 
 
 
